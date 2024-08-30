@@ -1,0 +1,55 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 82px;
+    font-family: 'Inter', sans-serif;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 82px);
+    column-gap: 20px;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.logo {
+    grid-column: 1/3;
+    justify-self: start;
+    font-weight: 700;
+}
+
+.nav-home, .nav-features, .nav-contact, .sign-in {
+    font-size: 12px;
+}
+
+.nav-home:hover, .nav-features:hover, .nav-contact:hover, .sign-in:hover {
+    cursor: pointer;
+}
+
+.nav-home {
+    grid-column: 9/10;
+}  
+
+.nav-features {
+    grid-column: 10/11;
+}
+
+.nav-contact {
+    grid-column: 11/12;
+}
+
+.sign-in {
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    height: 30px;
+    width: 82px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
