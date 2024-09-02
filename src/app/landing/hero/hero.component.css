@@ -2,7 +2,6 @@
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 168px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -15,6 +14,7 @@
 }
 
 .left-column {
+    margin-top: 168px;
     grid-column: 1;
 
     display: grid;
@@ -25,6 +25,7 @@
 }
 
 .right-column {
+    margin-top: 168px;
     grid-column: 9;
 
     display: grid;
@@ -101,6 +102,6 @@
     grid-column: 9/13;
     grid-row: 2; /* Place it in the last row */
     background-color: black;
-    margin-top: 295px; /* Adjust this to overflow half its height upwards */
-    z-index: 1; /* Ensure it appears above other content */
+    margin-top: 463px; /* Adjust this to overflow half its height upwards */
+    z-index: 1; /* Ensure it appears above other content */ 
 }

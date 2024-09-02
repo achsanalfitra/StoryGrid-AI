@@ -4,6 +4,10 @@
     width: 1200px;
     height: 82px;
     font-family: 'Inter', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .row {
