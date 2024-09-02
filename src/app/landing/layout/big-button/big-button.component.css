@@ -1,0 +1,17 @@
+.big-button {
+    height: 39px;
+    width: 183px;
+    border: 1px solid #000000;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.big-button:hover {
+    cursor: pointer;
+}

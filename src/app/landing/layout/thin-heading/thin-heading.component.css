@@ -1,0 +1,10 @@
+.thin-heading {
+    font-size: 53px;
+    font-weight: 200;
+    letter-spacing: -0.05em;
+    line-height: 53px;
+
+    margin: 0;
+    padding: 0;
+    display: block; /* Ensures it behaves as a block element */
+}
